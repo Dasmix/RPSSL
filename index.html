@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock, Papers, Scissors, Spock, Lizard</title>
 </head>
+
 <body>
-    
+    <div class="game-area">
+        <h1>Paper, Rock, Scissors, Spock, Lizard</h1>
+        <div class="options">
+            <button aria-label="paper" id="paper">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+            <button aria-label="rock" id="rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </button>
+            <button aria-label="scissors" id="scissors">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </button>
+            <button aria-label="spock" id="spock">
+                <i class="fa-solid fa-hand-spock"></i>
+            </button>
+            <button aria-label="lizard" id="lizard">
+                <i class="fa-solid fa-hand-lizard"></i>
+            </button>
+        </div>
+        <div id="result"></div>
+        <div class="score">
+            <p>Score:</p>
+            <p id="player-score">0</p>
+            <p>-</p>
+            <p id="computer-score">0</p>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/6f2dfeee83.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
