@@ -1,4 +1,98 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: whitesmoke;
 
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 90%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.options {
+    width: 85%;
+    margin: 30px auto;
+}
+
+
+.btn {
+    width: 220px;
+    height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 10px;
+    background-color: white;
+    border: 5px solid;
+    width: 80px;
+    height: 80px;
+    font-size: 3.2rem;
+    margin: 0 25px;
+    transition: all 0.5s;
+}
+
+.btn--big::after {
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+
+}
+
+#result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+.score-area {
+    margin: 5px auto;
+    width: 80%;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#player-score {
+    color: green;
+    font-weight: bold;
+}
+
+#computer-score {
+    color: red;
+    font-weight: bold;
+}
+
+#reset {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1rem;
+}
+
+.reset {
+    text-align: center;
 }

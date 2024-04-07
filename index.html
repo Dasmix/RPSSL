@@ -18,33 +18,35 @@
 </head>
 
 <body>
+    <h1 class="heading">Paper, Rock, Scissors, Spock, Lizard</h1>
     <div class="game-area">
-        <h1>Paper, Rock, Scissors, Spock, Lizard</h1>
         <div class="options">
-            <button aria-label="paper" id="paper">
+            <button aria-label="paper" data-type="Paper" id="paper" class="btn btn--big">
                 <i class="fa-solid fa-hand"></i>
             </button>
-            <button aria-label="rock" id="rock">
+            <button aria-label="rock" data-type="Rock" id="rock" class="btn btn--big">
                 <i class="fa-solid fa-hand-back-fist"></i>
             </button>
-            <button aria-label="scissors" id="scissors">
+            <button aria-label="scissors" data-type="Scissors" id="scissors" class="btn btn--big">
                 <i class="fa-solid fa-hand-scissors"></i>
             </button>
-            <button aria-label="spock" id="spock">
+            <button aria-label="spock" data-type="Spock" id="spock" class="btn btn--big">
                 <i class="fa-solid fa-hand-spock"></i>
             </button>
-            <button aria-label="lizard" id="lizard">
+            <button aria-label="lizard" data-type="Lizard" id="lizard" class="btn btn--big">
                 <i class="fa-solid fa-hand-lizard"></i>
             </button>
         </div>
         <div id="result"></div>
-        <div class="score">
-            <p>Score:</p>
-            <p id="player-score"><span>0</span></p>
-            <p>-</p>
-            <p id="computer-score"><span>0</span></p>
+        <div class="score-area">
+            <p class="scores">Score:</p>
+            <p class="scores">Player: <span id="player-score">0</span></p>
+            <p class="scores">-</p>
+            <p class="scores">Computer: <span id="computer-score">0</span></p>
         </div>
+        <div class="reset">
         <button id="reset">Reset</button>
+        </div>
     </div>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/6f2dfeee83.js" crossorigin="anonymous"></script>
