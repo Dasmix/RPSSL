@@ -14,13 +14,16 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Title -->
     <title>Rock, Papers, Scissors, Spock, Lizard</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <h1 class="heading">Rock Papers Scissors Spock Lizard</h1>
     </header>
+    <!-- Game Area-->
     <div class="game-area">
         <div class="score-area">
             <p class="scores"><span id="player-score">0</span></p>
@@ -28,44 +31,48 @@
             <p class="scores"><span id="computer-score">0</span></p>
         </div>
         <div id="result">-</div>
+        <!-- Game buttons -->
         <div class="options">
-            <button aria-label="paper" data-type="Paper" id="paper" class="btn btn--big">
+            <button aria-label="paper" data-type="Paper" id="paper" class="btn--big">
                 <i class="fa-solid fa-hand"></i>
             </button>
-            <button aria-label="rock" data-type="Rock" id="rock" class="btn btn--big">
+            <button aria-label="rock" data-type="Rock" id="rock" class="btn--big">
                 <i class="fa-solid fa-hand-back-fist"></i>
             </button>
-            <button aria-label="scissors" data-type="Scissors" id="scissors" class="btn btn--big">
+            <button aria-label="scissors" data-type="Scissors" id="scissors" class="btn--big">
                 <i class="fa-solid fa-hand-scissors"></i>
             </button>
-            <button aria-label="spock" data-type="Spock" id="spock" class="btn btn--big">
+            <button aria-label="spock" data-type="Spock" id="spock" class="btn--big">
                 <i class="fa-solid fa-hand-spock"></i>
             </button>
-            <button aria-label="lizard" data-type="Lizard" id="lizard" class="btn btn--big">
+            <button aria-label="lizard" data-type="Lizard" id="lizard" class="btn--big">
                 <i class="fa-solid fa-hand-lizard"></i>
             </button>
         </div>
+        <!-- Reset button-->
         <div class="reset">
-        <button id="reset" class="btn" data-type="reset">Reset</button>
+            <button id="reset" class="btn" data-type="reset">Reset</button>
         </div>
     </div>
+    <!-- Rules -->
     <footer>
         <div>
-        <h1>A Simple Way to Remember Who Wins</h1>
-        <ul>
-            <li>Scissors cuts paper.</li>
-            <li>Paper covers rock.</li>
-            <li>Rock crushes lizard.</li>
-            <li>Lizard poisons Spock.</li>
-            <li>Spock smashes scissors.</li>
-            <li>Scissors decapitates lizard.</li>
-            <li>Lizard eats paper.</li>
-            <li>Paper disproves Spock.</li>
-            <li>Spock vaporizes rock.</li>
-            <li>Rock crushes scissors.</li>
-            </div>
-        </ul>
+            <h1>A Simple Way to Remember Who Wins</h1>
+            <ul>
+                <li>Scissors cuts paper.</li>
+                <li>Paper covers rock.</li>
+                <li>Rock crushes lizard.</li>
+                <li>Lizard poisons Spock.</li>
+                <li>Spock smashes scissors.</li>
+                <li>Scissors decapitates lizard.</li>
+                <li>Lizard eats paper.</li>
+                <li>Paper disproves Spock.</li>
+                <li>Spock vaporizes rock.</li>
+                <li>Rock crushes scissors.</li>
+            </ul>
+        </div>
     </footer>
+    <!-- Java script and font awesome -->
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/6f2dfeee83.js" crossorigin="anonymous"></script>
 </body>
