@@ -18,8 +18,16 @@
 </head>
 
 <body>
-    <h1 class="heading">Paper, Rock, Scissors, Spock, Lizard</h1>
+    <header>
+        <h1 class="heading">Rock Papers Scissors Spock Lizard</h1>
+    </header>
     <div class="game-area">
+        <div class="score-area">
+            <p class="scores"><span id="player-score">0</span></p>
+            <p class="scores">-</p>
+            <p class="scores"><span id="computer-score">0</span></p>
+        </div>
+        <div id="result">-</div>
         <div class="options">
             <button aria-label="paper" data-type="Paper" id="paper" class="btn btn--big">
                 <i class="fa-solid fa-hand"></i>
@@ -37,17 +45,27 @@
                 <i class="fa-solid fa-hand-lizard"></i>
             </button>
         </div>
-        <div id="result"></div>
-        <div class="score-area">
-            <p class="scores">Score:</p>
-            <p class="scores">Player: <span id="player-score">0</span></p>
-            <p class="scores">-</p>
-            <p class="scores">Computer: <span id="computer-score">0</span></p>
-        </div>
         <div class="reset">
-        <button id="reset">Reset</button>
+        <button id="reset" class="btn" data-type="reset">Reset</button>
         </div>
     </div>
+    <footer>
+        <div>
+        <h1>A Simple Way to Remember Who Wins</h1>
+        <ul>
+            <li>Scissors cuts paper.</li>
+            <li>Paper covers rock.</li>
+            <li>Rock crushes lizard.</li>
+            <li>Lizard poisons Spock.</li>
+            <li>Spock smashes scissors.</li>
+            <li>Scissors decapitates lizard.</li>
+            <li>Lizard eats paper.</li>
+            <li>Paper disproves Spock.</li>
+            <li>Spock vaporizes rock.</li>
+            <li>Rock crushes scissors.</li>
+            </div>
+        </ul>
+    </footer>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/6f2dfeee83.js" crossorigin="anonymous"></script>
 </body>
