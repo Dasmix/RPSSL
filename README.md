@@ -1,39 +1,84 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Rock, Paper, Scissors, Spock, Lizard is an extension of the classic Rock, Paper, Scissors game. It was popularized by the TV show "The Big Bang Theory" and adds two additional options, Spock and Lizard, which adds more complexity and strategic depth to the game.
 
-Welcome,
+[View the live project here.](https://dasmix.github.io/RPSSL/)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Am I Responsive](/assets/images/iamrensponsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+### Existing Features 
+-   #### Header 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+    -  Featured at the top of the page, the header shows the game name: Rock Paper Scissors Spock Lizard in a font that is playful and clearly contrasts with the background.
+    - This header clearly tells the user What game they are playing.
 
-`python3 -m http.server`
+    ![Header](/assets/images/header.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+-   #### Scores 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+    - Displays the current scores of the player and the computer. It shows the number of wins, losses, and draws for both the player and the computer, providing a clear overview of their performance throughout the game.
 
-`http_server`
+    - After each round, the score section updates dynamically to reflect the outcome of the round. It provides instant feedback to the player, indicating whether they won, lost, or tied the round, allowing them to track their progress and adjust their strategy accordingly.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    ![Scores](/assets/images/scores.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    #### Result 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - The result section visually displays the outcome of each round. It shows the player's chosen move, the computer's randomly generated move, and the result of the round.
 
-To log into the Heroku toolbelt CLI:
+    ![Result](/assets/images/result.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    #### Game buttons
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    - The Game options include a clear instruction and then a choice of options to choose from to play: Rock, Paper, Scissors, Spock or Lizard. These
+        options are interactive buttons that the user can click to make their choice.
+    - This section provides interactive buttons that the user can click to make their choice and play the game.
 
----
+    ![Game-Buttons](/assets/images/gamebuttons.png)
 
-Happy coding!
+    #### Footer
+
+    - The footer section shows the rules of Rock Paper Scissors Spock Lizard.
+    - The footer is valuable to the user because ił clearly explains how the game is played.
+
+    ![Rules](/assets/images/rules.png)
+
+    ### Features left to impement 
+
+    - Introduce visual representations of player and computer choices, enriching the gaming experience with engaging symbols for each selection.
+
+    ## Testing 
+
+    - I tested playing this game in different browsers: Chrome, Firefox, Safari.
+    - I confirmed that the game results are always correct
+    - I confirmed that the header, instructions, options, results and footer text are all readable and easy to understand. 
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running ił through lighthouse in devtools
+
+    ![Lighthouse](/assets/images/test.png)
+
+    ## Validator Testing 
+    
+    - [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdasmix.github.io%2FRPSSL%2F)
+    - [CSS](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdasmix.github.io%2FRPSSL%2F&usermedium=all&vextwarning=&warning=1)
+    - [JavaScript](https://codebeautify.org/jsvalidate/y240cc1fb)
+
+    ## Unfixed Bugs 
+
+    No unfixed bugs
+
+    ## Deployment 
+    
+    - The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the branch
+    - Once the branch has been selected, the page provided the link to the completed website.
+    The live link can be found here - [Rock Paper Scissors Spock Lizard](https://dasmix.github.io/RPSSL/).
+
+    ## Credits 
+
+    ### Media
+
+    - The hands icons were sourced from [Font Awesome](https://fontawesome.com/).
+    - All images featured in the README file were cropped using the [Lightshot](https://app.prntscr.com/en/).
+    
+    
